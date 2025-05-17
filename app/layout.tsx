@@ -10,6 +10,7 @@ import {
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ModalProvider } from "@/providers/modal-provider";
+import prismadb from "@/lib/prismadb";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
